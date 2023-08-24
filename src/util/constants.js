@@ -1,0 +1,1 @@
+export const TOKEN_NAME = "cc_token_test_1";

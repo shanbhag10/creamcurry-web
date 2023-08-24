@@ -1,0 +1,259 @@
+/* 
+Ref : https://uiverse.io/gharsh11032000/nasty-insect-66
+*/
+
+.form-container {
+    margin-top: 10%;
+    width: 350px;
+    background-color: #fff;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color: #212121;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+  }
+  
+  .form-container button:active {
+    scale: 0.95;
+  }
+  
+  .form-container .logo-container {
+    margin-bottom: 12px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .form-container .social-buttons {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .form-container .social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    font-family: inherit;
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 12px 16px;
+    gap: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+  }
+
+  .form-container .social-button svg {
+    width: 22px;
+    height: 22px;
+    fill: white;
+  }
+  
+  .form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-container .form-group input[type="text"],
+  .form-container .form-group input[type="password"] {
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+  }
+  
+  .form-container .form-group input::placeholder {
+    opacity: 0.5;
+  }
+  
+  .form-container .form-group input[type="text"]:focus,
+  .form-container .form-group input[type="password"]:focus {
+    border: 1.2px solid #2d79f3;
+  }
+  
+  .form-container .form-submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    color: #fff;
+    background-color: #212121;
+    border: none;
+    width: 100%;
+    padding: 16px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin: 12px 0;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+  }
+  
+  .form-container .form-submit-btn:hover {
+    background-color: #313131;
+  }
+  
+  .form-container .link {
+    color: #1778f2;
+    text-decoration: none;
+    background-color: white;
+    border: none;
+  }
+  
+  .form-container .forgot-password-link {
+    align-self: flex-end;
+    margin-top: -20px;
+  }
+  
+  .form-container .signup-link {
+    align-self: center;
+    font-weight: 500;
+  }
+  
+  .form-container .signup-link .link {
+    font-weight: 400;
+  }
+  
+  .form-container .link:hover {
+    text-decoration: underline;
+    color: orange;
+  }
+  
+  .form-container .line {
+    width: 100%;
+    height: 1px;
+    background-color: #212121;
+    opacity: 0.1;
+  }
+
+  .label {
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    padding: 3px;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .flex-row > div > label {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 450px;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  ::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .form button {
+    align-self: flex-end;
+  }
+  
+  .flex-column > label {
+    color: #151717;
+    font-weight: 600;
+  }
+  
+  .button {
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #cfef00;
+    background-color: transparent;
+    border: 2px solid #cfef00;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: orange;
+    top: 0%;
+    left: -100%;
+    scale: 1;
+    border-radius: inherit;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button span {
+    transition: all 0.7s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .button span::before {
+    color: #212121;
+    overflow: hidden;
+  }
+  
+  .button:hover span::before {
+    width: 100%;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    transition-delay: 0.2s;
+  }
+  
+  .button:hover::before {
+    scale: 1;
+    top: 0%;
+    left: 0%;
+  }
+  
+  .button:hover {
+    border-color: transparent;
+  }
+  
+  .button:active {
+    scale: 0.2;
+  }
+  
+  .big-logo {
+    height: 80px;
+    width: 80px;
+    margin: 0px;
+  }
